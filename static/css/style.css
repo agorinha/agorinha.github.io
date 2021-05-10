@@ -4,21 +4,27 @@ body {
   color: #ffffff;
   background-color: #aa1111;
   text-align: center;
-}
-
-h1 {
-  font-size: 5em;
-  font-family: 'Gabriela', serif;
-}
-
-h2, h3 {
   font-family: 'Bodoni Moda', serif;
 }
 
+h1 {
+  font-family: 'Gabriela', serif;
+  font-size: 5em;
+  margin-bottom: 0;
+}
+
 h2 {
+  color: #ffffff;
+  font-style: italic;
   font-size: 2em;
+  margin-top: 0;
 }
 
 h3 {
-  font-size 1.5em;
+  font-size: 1.5em;
+}
+
+span {
+  font-family: 'Helvetica', serif;
+  font-size: 1.2em;
 }
