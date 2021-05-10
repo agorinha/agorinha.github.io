@@ -23,5 +23,38 @@
   <body>
     <h1>AGORINHA</h1>
     <h2>peperatis ardentis en anus outrem sucus est.</h2>
-  </body
+  </body>
+  <div class="wrapper">
+            <form class="form1" action="http://google.com">
+                <div class="formtitle">
+                    Enter the password to proceed
+                </div>
+
+                <div class="input nobottomborder">
+                    <div class="inputtext">
+                        Password:
+                    </div>
+
+                    <div class="inputcontent">
+                        <input type="password" id="password" /><br />
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <input class="orangebutton" type="button" value="Login" onclick="checkPassword()" />
+                </div>
+            </form>
+        </div>
+
+       <script>
+      function checkPassword(){
+       if(document.getElementById('password').value == 'Sic Agorinha Creatus Est'){
+        alert('Correct Password!'); 
+          location.href = "http://google.com";
+         } else {
+         alert('Wrong Password!');
+          return false;
+        }
+       }
+      </script>
 </html>
