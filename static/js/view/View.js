@@ -11,3 +11,10 @@ class FormView extends View {
         return "";
     }
 }
+
+class MainView extends View {
+
+    html () {
+        return ``
+    }
+}

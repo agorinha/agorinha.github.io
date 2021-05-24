@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const FORM_HTML = `
 <form class="form1" action="http://google.com">
     <div class="formtitle">
@@ -42,3 +43,15 @@ async function checkPassword() {
 
 // Call Init
 initContent();
+=======
+async function checkPassword() {
+    if (document.getElementById('password').value.toUpperCase() == 'SIC AGORINHA CREATUS EST') {
+        await alert('Beatus homo qui invenit sapientiam et qui affluit prudentia');
+        location.href = "https://google.com";
+        return true;
+    } else {
+        location.href = ('https://letmegooglethat.com/?q=como+hackear+o+agorinha');
+        return false;
+    }
+}
+>>>>>>> 6493ba2dd573350afea64e344f8adbfe04f23a26
