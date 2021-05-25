@@ -7,15 +7,25 @@ body {
   font-family: 'Bodoni Moda', serif;
 }
 
+img {
+  margin-top: 0cm;
+  margin-bottom: 0cm;
+}
+
+.content {
+  margin-top: 0cm;
+  margin-bottom: 0cm;
+}
+
 h1 {
   font-family: 'Gabriela', serif;
-  font-size: 5em;
+  font-size: 3em;
   margin-bottom: 0;
 }
 
 h2 {
-  color: #ffffff;
-  font-style: italic;
+  color: #000;
+  font-family: 'Gabriela', serif;
   font-size: 2em;
   margin-top: 0;
 }
@@ -27,4 +37,18 @@ h3 {
 span {
   font-family: 'Helvetica', serif;
   font-size: 1.2em;
+}
+
+a.book {
+  color: black;
+  text-decoration: none;
+  -webkit-transition: opacity 0.9s ease-in-out;
+  -moz-transition: opacity 0.9s ease-in-out;
+  -ms-transition: opacity 0.9s ease-in-out;
+  -o-transition: opacity 0.9s ease-in-out;
+  transition: opacity 0.9s ease-in-out;
+}
+
+a.book:hover {
+  color: gray;
 }
